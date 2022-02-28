@@ -3,7 +3,7 @@ import 'package:clean_arch_reso/features/number_trivia/data/models/number_trivia
 import 'package:dartz/dartz.dart';
 
 import 'package:clean_arch_reso/core/error/failures.dart';
-import 'package:clean_arch_reso/core/platform/network_info.dart';
+import 'package:clean_arch_reso/core/network/network_info.dart';
 import 'package:clean_arch_reso/features/number_trivia/data/datasources/number_trivia_local_data_source.dart';
 import 'package:clean_arch_reso/features/number_trivia/data/datasources/number_trivia_remote_data_source.dart';
 import 'package:clean_arch_reso/features/number_trivia/domain/entities/number_trivia.dart';

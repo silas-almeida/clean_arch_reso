@@ -39,6 +39,7 @@ dependencies:
   shared_preferences: ^2.0.13
 
 dev_dependencies:
+  data_connection_checker: ^0.3.4
   flutter_lints: ^1.0.0
   flutter_test:
     sdk: flutter
