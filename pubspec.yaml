@@ -37,9 +37,10 @@ dependencies:
   get_it: ^7.2.0
   http: ^0.13.4
   shared_preferences: ^2.0.13
+  data_connection_checker_tv: ^0.3.5-nullsafety
 
 dev_dependencies:
-  data_connection_checker: ^0.3.4
+  
   flutter_lints: ^1.0.0
   flutter_test:
     sdk: flutter
