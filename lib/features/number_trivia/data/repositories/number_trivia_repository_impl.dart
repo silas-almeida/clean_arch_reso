@@ -9,6 +9,7 @@ import 'package:clean_arch_reso/features/number_trivia/data/datasources/number_t
 import 'package:clean_arch_reso/features/number_trivia/domain/entities/number_trivia.dart';
 import 'package:clean_arch_reso/features/number_trivia/domain/repositories/number_trivia_repository.dart';
 
+// ignore: prefer_generic_function_type_aliases
 typedef Future<NumberTriviaModel> _ConcreteOrRandomChooser();
 
 class NumberTriviaRepositoryImpl implements NumberTriviaRepository {
