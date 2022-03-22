@@ -17,12 +17,12 @@ final sl = GetIt.instance;
 Future<void> init() async {
   //! Features - Number Trivia
   //BLOC
-  sl.registerFactory(
-    () => NumberTriviaBloc(
-        getConcreteNumberTrivia: sl(),
-        getRandomNumberTrivia: sl(),
-        inputConverter: sl()),
-  );
+  // sl.registerFactory(
+  //   () => NumberTriviaBloc(
+  //       getConcreteNumberTrivia: sl(),
+  //       getRandomNumberTrivia: sl(),
+  //       inputConverter: sl()),
+  // );
 
   //USECASES
   sl.registerLazySingleton(() => GetConcreteNumberTrivia(sl()));
@@ -46,6 +46,6 @@ Future<void> init() async {
   //! External
   final sharedPreferences = await SharedPreferences.getInstance();
   sl.registerLazySingleton(() => sharedPreferences);
-  sl.registerLazySingleton(() => http.Client);
+  sl.registerLazySingleton(() => http.Client());
   sl.registerLazySingleton(() => DataConnectionChecker());
 }
