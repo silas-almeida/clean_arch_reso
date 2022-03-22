@@ -1,16 +1,5 @@
 # clean_arch_reso
 
-A new Flutter project.
+A flutter project built to improve on Clean Architecture principles and practices following "Flutter TDD Clean Architecture Course" from Reso Coder Channel on youtube: https://www.youtube.com/watch?v=KjE2IDphA_U&list=PLB6lc7nQ1n4iYGE_khpXRdJkJEp9WOech
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Some modifications were made due to packages and Flutter SDK new versions.
